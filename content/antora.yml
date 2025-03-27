@@ -10,9 +10,9 @@ asciidoc:
     release-version: master
     page-pagination: true
     openshift_url: https://
-    acs_url: http://
-    gitops_url: http://
-    gitea_url: http://
+    acs_url: httpis://
+    gitops_url: https://
+    gitea_customersapp_url: https://
     username: user
     password: pswd
     doc_openshift_api: https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/security_apis/secret-v1
