@@ -1,15 +1,23 @@
 name: modules
-title: Default Title
+title: LAB1153
 version: master
 nav:
   - modules/ROOT/nav.adoc
 
 asciidoc:
   attributes:
-    lab_name: "I'm the lab_name var"
+    lab_name: "Unmasking the attack"
     release-version: master
     page-pagination: true
-    my_var: "foo"
+    openshift_url: https://
+    acs_url: http://
+    gitops_url: http://
+    gitea_url: http://
+    username: user
+    password: pswd
+    doc_openshift_api: https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/security_apis/secret-v1
+    doc_spiffe: https://spiffe.io/docs/latest/spire-about/spire-concepts/
+    doc_acs: https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.6/html/operating/manage-network-policies#network-graph-20-view_manage-network-policies
     guid: my-guid
     ssh_user: devops
     ssh_password: devops

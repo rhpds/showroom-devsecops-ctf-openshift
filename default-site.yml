@@ -1,6 +1,6 @@
 ---
 site:
-  title: Showroom Template Demo
+  title: LB 1153 - Unmasking the Attack Showroom
   url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
@@ -22,11 +22,6 @@ ui:
 
 runtime:
   cache_dir: ./.cache/antora
-
-antora:
-  extensions:
-    - require: ./content/lib/dev-mode.js
-      enabled: true
 
 output:
   dir: ./www
