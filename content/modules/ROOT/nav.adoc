@@ -1,1 +1,2 @@
 * xref:module-01.adoc[Missions]
+* xref:module-02.adoc[Architecture]
