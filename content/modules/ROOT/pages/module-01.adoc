@@ -39,6 +39,8 @@ password: {password}  -- Be careful to use local logins when connecting to ArgoC
 
 (challenge 4) https://reqbin.com/
 
+https://jsonformatter.org/json-pretty-print
+
 == Documentation
 {doc_openshift_api}[Openshift API Reference]
 
