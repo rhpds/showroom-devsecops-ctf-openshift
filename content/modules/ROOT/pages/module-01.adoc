@@ -21,18 +21,30 @@ Type that IP address on the {dashboard_url}[Dashboard] to unlock the second miss
 
 == Lab access
 
+-----
 {openshift_url}[Openshift Console]
 
 {acs_url}[Advanced Cluster Security for Kubernetes]
 
 {gitops_url}[Openshift GitOps --Be careful to login with local provider and NOT Openshift SSO]
 
-{gitea_customersapp_url}[Source Code of the customers application]
-
 username: {username}
 
 password: {password}  -- Be careful to use local logins when connecting to ArgoCD (Do not use Openshift SSO login as those users have no permission at all)
 
+-----
+-----
+
+{tpa_url}[Trusted Profile Analyzer]
+
+username: admin
+
+password: {password}
+
+-----
+-----
+{gitea_customersapp_url}[Source Code of the customers application]
+-----
 
 == Required utilities
 (Challenge 2) https://www.base64decode.org/
@@ -43,6 +55,7 @@ https://jsonformatter.org/json-pretty-print
 
 == Documentation
 {doc_openshift_api}[Openshift API Reference]
+Achitecture (see next page)
 
 
 
