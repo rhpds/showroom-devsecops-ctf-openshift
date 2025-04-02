@@ -14,11 +14,11 @@ Successive missions are described directly by the {ctf_dashboard_url}[CTF dashbo
 To win, you must collect a maximum number of points.
 Each discovered flag brings you a certain amount of points:
 
- - Mission 1 : 80 points
+ - Mission 1 : 100 points
 
- - Mission 2 : 100 points
+ - Mission 2 : 150 points
 
- - Mission 3 : 100 points
+ - Mission 3 : 80 points
 
  - Mission 4 : 240 points
 

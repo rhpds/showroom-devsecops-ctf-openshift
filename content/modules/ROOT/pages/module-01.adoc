@@ -28,6 +28,8 @@ Type that IP address on the {dashboard_url}[Dashboard] to unlock the second miss
 
 {gitops_url}[Openshift GitOps --Be careful to login with local provider and NOT Openshift SSO]
 
+{sonarqube_url}[SonarQube]
+
 username: {username}
 
 password: {password}  -- Be careful to use local logins when connecting to ArgoCD (Do not use Openshift SSO login as those users have no permission at all)
