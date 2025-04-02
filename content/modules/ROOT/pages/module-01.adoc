@@ -55,6 +55,7 @@ https://jsonformatter.org/json-pretty-print
 
 == Documentation
 {doc_openshift_api}[Openshift API Reference]
+
 Achitecture (see next page)
 
 
