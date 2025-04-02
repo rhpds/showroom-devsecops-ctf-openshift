@@ -7,7 +7,9 @@ The Automated Cloud Application Lifecycle (ACAL) project was initiated to tackle
 From the beginning of 2025, new applications shall follow the "Pipeline-as-Code" deployment model described here below.
 This model is the result of the combined work of the Platform Engineering and Application DevSecOps teams.
 
+image::automation.jpg[Automation Design, 100%, 100%]
+
 === Pipeline
 The structure of a Pipeline shall respect the followiong architecture principles:
 
-
+image::pipeline.jpg[Pipeline Design, 100%, 100%]

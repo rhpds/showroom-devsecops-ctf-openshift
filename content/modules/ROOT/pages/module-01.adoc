@@ -47,16 +47,15 @@ password: {password}
 -----
 
 == Required utilities
-(Challenge 2) https://www.base64decode.org/
+https://www.base64decode.org/[Base64 decoder (Challenge 2)]
 
-(challenge 4) https://reqbin.com/
+https://reqbin.com/[REST Client (challenge 4)] 
 
-https://jsonformatter.org/json-pretty-print
+https://jsonformatter.org/json-pretty-print [Json prettyPrint formatter]
 
 == Documentation
 {doc_openshift_api}[Openshift API Reference]
 
-Achitecture (see next page)
-
+{showroom-root}/modules/module-02.html[Corporate achitecture]
 
 
