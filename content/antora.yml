@@ -7,15 +7,18 @@ nav:
 asciidoc:
   attributes:
     lab_name: "Unmasking the attack"
+    showroom_root: "{ showroom_primary_view_url }"
     release-version: master
     page-pagination: true
-    openshift_console_url: {openshift_console_url} 
-    acs_url: https://central-stackrox.{openshift_cluster_ingress_domain}
-    argocd_url: https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}
-    gitea_customersapp_url: {gitea_console_url}/gitea/customers-app.git
-    user_name: {user}
-    user_password: {password}
-    leaderboard_url: https://ctfd-leaderboard.{openshift_cluster_ingress_domain}
+    openshift_console_url: "{ openshift_console_url }"
+    acs_url: "https://central-stackrox.{ openshift_cluster_ingress_domain }"
+    argocd_url: "https://openshift-gitops-server-openshift-gitops.{ openshift_cluster_ingress_domain }"
+    sonarqube_url: "https://sonarqube-sonarqube.{ openshift_cluster_ingress_domain }"
+    tpa_url: "https://console-trusted-profile-analyzer.{ openshift_cluster_ingress_domain }"
+    gitea_customersapp_url: "{ gitea_console_url }/gitea/customers-app.git"
+    user_name: "{ user }"
+    user_password: "{ password }"
+    leaderboard_url: "https://ctfd-leaderboard.{ openshift_cluster_ingress_domain }"
     doc_openshift_api: https://docs.redhat.com/en/documentation/openshift_container_platform/4.17/html/security_apis/secret-v1
     doc_spiffe: https://spiffe.io/docs/latest/spire-about/spire-concepts/
     doc_acs: https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.6/html/operating/manage-network-policies#network-graph-20-view_manage-network-policies
