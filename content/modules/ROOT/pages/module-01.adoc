@@ -16,32 +16,35 @@ Your objective, as a DevSecOps expert, is to trace back the actions taken by the
 
 = First mission
 Your first objective is to identify which application is leaking sensitive data and uncover the CIDR of the hacker's infrastructure.
-Type the CIDR with the right format on the {dashboard_url}[Dashboard] to unlock the second mission.
+Type the CIDR with the right format on the CTF Dashboard to unlock the second mission.
 
 
 == Lab access
 
 -----
-{openshift_url}[Openshift Console]
+{leaderboard_url}[CTF Dashboard]
+
+{openshift_console_url}[Openshift Console]
 
 {acs_url}[Advanced Cluster Security for Kubernetes]
 
-{gitops_url}[Openshift GitOps --Be careful to login with local provider and NOT Openshift SSO]
+{argocd_url}[Openshift GitOps --Be careful to login with local provider and NOT Openshift SSO]
+
+
+username: {user_name}
+
+password: {user_password}  -- Be careful to use local logins when connecting to ArgoCD (Do not use Openshift SSO login as those users have no permission at all)
+
+-----
+-----
 
 {sonarqube_url}[SonarQube]
-
-username: {username}
-
-password: {password}  -- Be careful to use local logins when connecting to ArgoCD (Do not use Openshift SSO login as those users have no permission at all)
-
------
------
 
 {tpa_url}[Trusted Profile Analyzer]
 
 username: admin
 
-password: {password}
+password: {user_password}
 
 -----
 -----
@@ -53,11 +56,11 @@ https://www.base64decode.org/[Base64 decoder (Challenge 2)]
 
 https://reqbin.com/[REST Client (challenge 4)] 
 
-https://jsonformatter.org/json-pretty-print [Json prettyPrint formatter]
+https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter]
 
 == Documentation
 {doc_openshift_api}[Openshift API Reference]
 
-{showroom-root}/modules/module-02.html[Corporate achitecture]
+{showroom_root}/modules/module-02.html[Corporate achitecture]
 
 
