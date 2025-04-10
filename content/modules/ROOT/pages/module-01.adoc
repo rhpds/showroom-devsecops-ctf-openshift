@@ -30,27 +30,35 @@ username: {user}
 password: {password} 
 
 https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Security for Kubernetes]
++
 username: {user}
++
 password: {password} 
 
 https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}[Openshift GitOps (ArgoCD)]
++
 username: {user}
++
 password: {password} 
 
 Be careful to login with local provider and NOT Openshift SSO
 ====
 
 ====
-https://sonarqube-sonarqube.{ openshift_cluster_ingress_domain }[SonarQube]
+https://sonarqube-sonarqube.{openshift_cluster_ingress_domain}[SonarQube]
 
-https://console-trusted-profile-analyzer.{ openshift_cluster_ingress_domain }[Trusted Profile Analyzer]
+https://console-trusted-profile-analyzer.{openshift_cluster_ingress_domain}[Trusted Profile Analyzer]
++
 username: admin
++
 password: {password}
 ====
 
 ====
 {gitea_console_url}/gitea/customers-app.git[Source Code of the customers application]
++
 username: {gitea_user}
++
 password: {gitea_password}
 ===
 
