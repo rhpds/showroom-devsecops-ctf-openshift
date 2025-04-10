@@ -22,7 +22,7 @@ Type the CIDR with the right format on the CTF Dashboard to unlock the second mi
 == Lab access
 
 -----
-https://ctfd-leaderboard.{ openshift_cluster_ingress_domain }[CTF Dashboard]
+https://ctfd-leaderboard.{openshift_cluster_ingress_domain}[CTF Dashboard]
 
 { console_url }[Openshift Console]
 
