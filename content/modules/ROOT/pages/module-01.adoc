@@ -30,11 +30,11 @@ https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Sec
 https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}[Openshift GitOp (ArgoCD)]
 ====
 
-username: { gitea_user }
+username: {gitea_user}
 
-password: { gitea_password } 
+password: {gitea_password} 
 
-GitOps password: { gitea_password } --Be careful to login with local provider and NOT Openshift SSO
+GitOps password: {gitea_password} --Be careful to login with local provider and NOT Openshift SSO
 
 -----
 -----
@@ -45,11 +45,11 @@ https://console-trusted-profile-analyzer.{ openshift_cluster_ingress_domain }[Tr
 
 username: admin
 
-password: { gitea_password }
+password: {password}
 
 -----
 -----
-{ gitea_console_url }/gitea/customers-app.git[Source Code of the customers application]
+{gitea_console_url}/gitea/customers-app.git[Source Code of the customers application]
 -----
 
 == Required utilities
@@ -62,6 +62,6 @@ https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter]
 == Documentation
 {doc_openshift_api}[Openshift API Reference]
 
-{ showroom_primary_view_url }/modules/module-02.html[Corporate achitecture]
+{showroom_primary_view_url}/modules/module-02.html[Corporate achitecture]
 
 
