@@ -18,7 +18,7 @@ Your objective, as a DevSecOps expert, is to trace back the actions taken by the
 Your first objective is to identify which application is leaking sensitive data and uncover the CIDR of the hacker's infrastructure.
 Type the CIDR with the right format on the CTF Dashboard to unlock the second mission.
 
-== Lab access
+= Lab access
 
 ====
 https://ctfd-leaderboard.{openshift_cluster_ingress_domain}[CTF Dashboard^]
