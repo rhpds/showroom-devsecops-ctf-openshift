@@ -21,16 +21,15 @@ Type the CIDR with the right format on the CTF Dashboard to unlock the second mi
 == Lab access
 :leaderboard_url: https://ctfd-leaderboard.{openshift_cluster_ingress_domain}
 
-[subs="attributes"]
------
+====
 {leaderboard_url}[CTF Dashboard]
 
-{ console_url }[Openshift Console]
+{console_url}[Openshift Console]
 
-https://central-stackrox.{ openshift_cluster_ingress_domain }[Advanced Cluster Security for Kubernetes]
+https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Security for Kubernetes]
 
-https://openshift-gitops-server-openshift-gitops.{ openshift_cluster_ingress_domain }[Openshift GitOp (ArgoCD)]
-
+https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}[Openshift GitOp (ArgoCD)]
+====
 
 username: { gitea_user }
 
