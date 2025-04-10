@@ -1,3 +1,4 @@
+:openshift_cluster_ingress_domain: {openshift_cluster_ingress_domain}
 = Mission Briefing
 
 Welcome to the Security Task Force ; please have a seat !
