@@ -19,10 +19,11 @@ Your first objective is to identify which application is leaking sensitive data 
 Type the CIDR with the right format on the CTF Dashboard to unlock the second mission.
 
 == Lab access
+:leaderboard_url: https://ctfd-leaderboard.{openshift_cluster_ingress_domain}
 
 [subs="attributes"]
 -----
-https://ctfd-leaderboard.{openshift_cluster_ingress_domain}[CTF Dashboard]
+{leaderboard_url}[CTF Dashboard]
 
 { console_url }[Openshift Console]
 
