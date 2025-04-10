@@ -21,25 +21,13 @@ Type the CIDR with the right format on the CTF Dashboard to unlock the second mi
 == Lab access
 
 ====
-https://ctfd-leaderboard.{openshift_cluster_ingress_domain}[CTF Dashboard]
+https://ctfd-leaderboard.{openshift_cluster_ingress_domain}[CTF Dashboard^]
 
-username: {user}
+https://{console_url}[Openshift Console^]
 
-password: {password} 
+https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Security for Kubernetes^]
 
-https://{console_url}[Openshift Console]
-
-username: {user}
-
-password: {password} 
-
-https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Security for Kubernetes]
-
-username: {user}
-
-password: {password} 
-
-https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}[Openshift GitOps (ArgoCD)]
+https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}[Openshift GitOps (ArgoCD)^]
 
 username: {user}
 
@@ -49,9 +37,9 @@ Be careful to login with local provider and NOT Openshift SSO
 ====
 
 ====
-https://sonarqube-sonarqube.{openshift_cluster_ingress_domain}[SonarQube]
+https://sonarqube-sonarqube.{openshift_cluster_ingress_domain}[SonarQube^]
 
-https://console-trusted-profile-analyzer.{openshift_cluster_ingress_domain}[Trusted Profile Analyzer]
+https://console-trusted-profile-analyzer.{openshift_cluster_ingress_domain}[Trusted Profile Analyzer^]
 
 username: admin
 
@@ -59,23 +47,25 @@ password: {password}
 ====
 
 ====
-{gitea_console_url}/gitea/customers-app.git[Source Code of the customers application]
+{gitea_console_url}/gitea/customers-app.git[Source Code of the customers application^]
 
 username: {gitea_user}
 
 password: {gitea_password}
-===
+====
 
 == Required utilities
-https://www.base64decode.org/[Base64 decoder (Challenge 2)]
+====
+https://www.base64decode.org/[Base64 decoder (Challenge 2)^]
 
-https://reqbin.com/[REST Client (challenge 4)] 
+https://reqbin.com/[REST Client (challenge 4)^] 
 
-https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter]
+https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter^]
+====
 
 == Documentation
-{doc_openshift_api}[Openshift API Reference]
-
-{showroom_primary_view_url}/modules/module-02.html[Corporate achitecture]
+====
+{doc_openshift_api}[Openshift API Reference^]
+====
 
 
