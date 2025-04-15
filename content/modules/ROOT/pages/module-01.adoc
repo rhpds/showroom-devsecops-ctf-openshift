@@ -53,8 +53,6 @@ Be careful to login with local provider and NOT Openshift SSO
 https://www.base64decode.org/[Base64 decoder (Challenge 2)^]
 
 https://reqbin.com/[REST Client (challenge 4)^] 
-
-https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter^]
 ====
 
 == Documentation
