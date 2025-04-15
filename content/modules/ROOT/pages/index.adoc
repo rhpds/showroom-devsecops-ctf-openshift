@@ -7,7 +7,7 @@ This CTF has 4 missions, so there are 4 flags for you to discover.
 The missions are in order.  You need to complete one mission and submit its flag to unlock the next one.
 
 The briefing and first mission are described on the next page.
-Successive missions are described directly by the {ctf_dashboard_url}[CTF dashboard] when they are unlocked.
+Successive missions are described directly by the https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashboard^] when they are unlocked.
 
 == Winning the CTF
 
