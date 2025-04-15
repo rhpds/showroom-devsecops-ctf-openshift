@@ -28,6 +28,7 @@ https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashb
 
 ====
 
+
 https://{console_url}[Openshift Console^]
 
 https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Security for Kubernetes^]
@@ -42,22 +43,11 @@ Be careful to login with local provider and NOT Openshift SSO
 ====
 
 ====
-https://sonarqube-sonarqube.{openshift_cluster_ingress_domain}[SonarQube^]
 
-https://console-trusted-profile-analyzer.{openshift_cluster_ingress_domain}[Trusted Profile Analyzer^]
-
-username: admin
-
-password: {password}
-====
-
-====
 {gitea_console_url}/gitea/customers-app.git[Source Code of the customers application^]
 
-username: {gitea_user}
-
-password: {gitea_password}
 ====
+
 
 == Required utilities
 ====
@@ -73,4 +63,13 @@ https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter^]
 {doc_openshift_api}[Openshift API Reference^]
 ====
 
+== Extra tooling
+====
+https://sonarqube-sonarqube.{openshift_cluster_ingress_domain}[SonarQube^]
 
+https://console-trusted-profile-analyzer.{openshift_cluster_ingress_domain}[Trusted Profile Analyzer^]
+
+username: admin
+
+password: {password}
+====
