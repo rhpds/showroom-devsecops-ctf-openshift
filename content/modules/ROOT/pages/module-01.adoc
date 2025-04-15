@@ -62,13 +62,3 @@ https://jsonformatter.org/json-pretty-print[Json prettyPrint formatter^]
 {doc_openshift_api}[Openshift API Reference^]
 ====
 
-== Extra tooling
-====
-https://sonarqube-sonarqube.{openshift_cluster_ingress_domain}[SonarQube^]
-
-https://console-trusted-profile-analyzer.{openshift_cluster_ingress_domain}[Trusted Profile Analyzer^]
-
-username: admin
-
-password: {password}
-====
