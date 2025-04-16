@@ -1,15 +1,15 @@
 = Mission Briefing
 
-Welcome to the Security Task Force ; please have a seat !
+Welcome to the Security Task Force; please have a seat!
 
-A critical security alert was raised by the NS team (Network & Security team).
-They claim that an application hosted on an OpenShift cluster has been compromised today, resulting in sensitive data being leaked out to an external server.
-They also pointed our an unexpected login from a generic user account that is supposed to be the one used by the hacker.
+A critical security alert was raised by the NS team (Network & Security team). 
+They claim that an application hosted on an OpenShift cluster has been compromised today, resulting in sensitive data being leaked out to an external server. 
+They also pointed out an unexpected login from a generic user account that is supposed to be the one used by the hacker.
 
-The applications and operations team haven't been able to find any security issues nor in the applications nor in the secured pipelines.
+The applications and operations team haven’t been able to find any security issues in the applications or the secured pipelines.
 
-We need you to help us find security issues on the platform.
-In order to do so, we've set you up with an account that has similar permissions that the one identified by the NS team.
+We need your help in identifying security issues on the platform. 
+To support this, we've provided you with an account that has permissions similar to those associated with the one flagged by the NS team.
 
 Your objective, as a DevSecOps expert, is to trace back the actions taken by the hacker and provide information to the security team who will then review and update our security best practices.
 
