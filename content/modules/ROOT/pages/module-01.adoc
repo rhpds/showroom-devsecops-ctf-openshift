@@ -13,12 +13,12 @@ To support this, we've provided you with an account that has permissions similar
 
 Your objective, as a DevSecOps expert, is to trace back the actions taken by the hacker and provide information to the security team who will then review and update our security best practices.
 
-= Mission zero
+= Starting your mission
 Your first objective will be to identify which application is leaking sensitive data and uncover the network information of the hacker's infrastructure.
-Type your response on the CTF Dashboard to unlock the second mission, and keep going until the final mission number 4.
+Login to the CTF Dashboard to post your responses and start unlocking the successive missions.
+If you want, you can get some practice with the mission zero.
 Use the available tools to investigate. A tool is never used twice to solve a mission.
 
-To begin your journey, login to the CTF dashboard and unlock your practice challenge.
 
 ====
 https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashboard^]
