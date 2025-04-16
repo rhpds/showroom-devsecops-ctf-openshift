@@ -10,6 +10,6 @@ This model is the result of the combined work of the Platform Engineering and Ap
 image::automation.jpg[Automation Design, 100%, 100%]
 
 == Pipeline
-The structure of a Pipeline shall respect the following architecture principles:
+The structure of a Pipeline shall respect the following structure and tasks scope:
 
 image::pipeline.jpg[Pipeline Design, 100%, 100%]

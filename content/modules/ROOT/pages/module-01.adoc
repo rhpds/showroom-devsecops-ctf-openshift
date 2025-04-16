@@ -28,28 +28,34 @@ https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashb
 = Lab access
 
 ====
-https://{console_url}[Openshift Console^]
-(Be careful to login to that console with SSO)
-====
+Login to the Openshift Web Console with RH SSO
 
-====
+https://{console_url}[Openshift Console^]
+
+username: {user}
+
+password: {password} 
+
+
+Login to ACS with Openshift SSO integration
+
 https://central-stackrox.{openshift_cluster_ingress_domain}[Advanced Cluster Security for Kubernetes^]
 
 username: {user}
 
 password: {password} 
 
-(Be careful to login to ACS with Openshift integration)
 ====
 
 ====
+Login to Openshift Gitops with the local authentication provider (NOT with Openshift SSO integration)
+
 https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}[Openshift GitOps (ArgoCD)^]
 
 username: {user}
 
 password: {password} 
 
-(Be careful to login to Gitops with local provider and NOT Openshift SSO)
 ====
 
 ====
