@@ -25,7 +25,7 @@ https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashb
 
 username: {user}
 
-password: MTU4MDMx
+password: {password}
 
 ====
 
