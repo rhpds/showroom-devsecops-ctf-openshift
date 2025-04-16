@@ -13,12 +13,12 @@ In order to do so, we've set you up with an account that has similar permissions
 
 Your objective, as a DevSecOps expert, is to trace back the actions taken by the hacker and provide information to the security team who will then review and update our security best practices.
 
+= Mission zero
+Your first objective will be to identify which application is leaking sensitive data and uncover the network information of the hacker's infrastructure.
+Type your response on the CTF Dashboard to unlock the second mission, and keep going until the final mission number 4.
+Use the available tools to investigate. A tool is never used twice to solve a mission.
 
-= First mission
-Your first objective is to identify which application is leaking sensitive data and uncover the CIDR of the hacker's infrastructure where the data is being sent, as well as the target port.
-Type the CIDR and the port with the right format on the CTF Dashboard to unlock the second mission.
-Use the available tools to investigate.
-Free tip: a tool is never used twice; if you solve a challenge looking at a specific Red Hat product, you'll have to look somewhere else for the next one. 
+To begin your journey, login to the CTF dashboard and unlock your practice challenge.
 
 ====
 https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashboard^]
