@@ -22,6 +22,11 @@ Free tip: a tool is never used twice; if you solve a challenge looking at a spec
 
 ====
 https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashboard^]
+
+username: {user}
+
+password: MTU4MDMx
+
 ====
 
 
