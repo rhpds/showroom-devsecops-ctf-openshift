@@ -3,10 +3,9 @@
 This lab is a Capture The Flag (CTF) game.
 A flag is an element of information related to security, such as a password, an IP address... that has to be discovered in a "mission".
 
-This CTF has 4 missions, so there are 4 flags for you to discover.
-The missions are in order.  You need to complete one mission and submit its flag to unlock the next one.
+This CTF has 4 missions (in addition to the mission zero), so there are 4 flags for you to discover.
 
-The briefing and first mission are described on the next page.
+The mission briefing and first mission objective are described on the next page.
 Successive missions are described directly by the https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashboard^] when they are unlocked.
 
 == Winning the CTF
@@ -22,9 +21,8 @@ Each discovered flag brings you a certain amount of points:
 
  - Mission 4 : 240 points
 
-But you also have to be fast, real fast !
-Indeed, only the first one to discover a flag scores the maximum number of points for the corresponding mission.
-Successive winners will collect a slightly less amount of points.
+The missions are in order.  You need to complete one to unlock the next one.
+So you also have to be fast, real fast !
 
 To help you go faster, each mission have some hints that you can have revealed.
 Each hint, however, will cost a small number of points.
