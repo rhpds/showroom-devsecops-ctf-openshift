@@ -13,14 +13,13 @@ To support this, we've provided you with an account that has permissions similar
 
 Your objective, as a DevSecOps expert, is to trace back the actions taken by the hacker and provide information to the security team who will then review and update our security best practices.
 
+Use the available tools to investigate. A tool is never used twice to solve a mission.
+
 = Starting your missions
 Your first objective will be to identify which application is leaking sensitive data and uncover the network information of the hacker's infrastructure.
 
-Login to the CTF Dashboard to post your responses and start unlocking the successive missions.
-
-If you want, you can get some practice with the mission zero.
-
-Use the available tools to investigate. A tool is never used twice to solve a mission.
+Login to the CTF Dashboardi, where you'll be able to see your mission objectives and to post your responses.
+Each correct answer will complete the current mission and unlock the next one.
 
 
 ====
