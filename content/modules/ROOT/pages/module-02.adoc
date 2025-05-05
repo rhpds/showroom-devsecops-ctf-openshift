@@ -1,5 +1,7 @@
 =  Architecture
 
+== Components
+
 The new Application Platform, designed to support our applications in the future, consists of a couple major components, described in the following high level architecture.
 
 image::hlarch.png[High Level Component Architecture, 100%, 100%]
