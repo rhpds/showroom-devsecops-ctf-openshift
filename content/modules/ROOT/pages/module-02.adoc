@@ -1,5 +1,9 @@
 =  Architecture
 
+The new Application Platform, designed to support our applications in the future, consists of a couple major components, described in the following high level architecture.
+
+image::hlarch.png[High Level Component Architecture, 100%, 100%]
+
 == Pipeline as code deployment model (Update 2/2025)
 
 Last year our company, "CustomerFirst,Ltd", went through an global IT Automation program.
@@ -9,7 +13,7 @@ This model is the result of the combined work of the Platform Engineering and Ap
 
 image::automation.jpg[Automation Design, 100%, 100%]
 
-== Pipeline
-The structure of a Pipeline shall respect the following structure and tasks scope:
+== Pipeline rules
+A corporate-compliant Pipeline shall respect the following structure and tasks scope:
 
 image::pipeline.jpg[Pipeline Design, 100%, 100%]
