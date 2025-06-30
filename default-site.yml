@@ -1,7 +1,7 @@
 ---
 site:
   title: |
-    LB1153 - Unmasking the Attack: A DevSecOps CTF on OpenShift
+    Unmasking the Attack: A DevSecOps CTF on OpenShift
   url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
@@ -12,7 +12,7 @@ content:
 
 ui:
   bundle:
-    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/rh-summit-2025/ui-bundle.zip
+    url: https://github.com/rhpds/rhdp_showroom_theme/releases/downloads/v0.0.1/ui-bundle.zip
 
 runtime:
   cache_dir: ./.cache/antora
